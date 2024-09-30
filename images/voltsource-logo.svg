@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <style>
+    .logo-text { font: bold 24px sans-serif; fill: #2c3e50; }
+    .spark { fill: #e74c3c; }
+  </style>
+  <text x="10" y="40" class="logo-text">VoltSource</text>
+  <path class="spark" d="M160 10 L170 30 L165 30 L175 50 L155 35 L165 35 L160 10Z"/>
+</svg>
