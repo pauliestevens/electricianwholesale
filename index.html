@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoltSource - Premium Electrical Wholesaler | Quality Electrical Supplies</title>
+    <meta name="description" content="VoltSource is your trusted electrical wholesaler. We offer a wide range of high-quality electrical supplies including wiring, lighting fixtures, circuit breakers, and professional tools.">
+    <meta name="keywords" content="electrical wholesaler, electrical supplies, wiring, lighting fixtures, circuit breakers, electrical tools">
+    <link rel="canonical" href="https://www.voltsource.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --background-color: #ecf0f1;
+            --text-color: #34495e;
+            --white: #ffffff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .hero {
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            color: var(--white);
+            text-align: center;
+            padding: 100px 0;
+            margin-top: 80px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: var(--white);
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #c0392b;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            text-align: center;
+            color: var(--secondary-color);
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .product {
+            background-color: var(--white);
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: translateY(-10px);
+        }
+
+        .product i {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .product h3 {
+            margin-bottom: 15px;
+            color: var(--secondary-color);
+        }
+
+        #about {
+            background-color: var(--white);
+        }
+
+        #contact {
+            background-color: var(--secondary-color);
+            color: var(--white);
+        }
+
+        address {
+            text-align: center;
+            font-style: normal;
+        }
+
+        address p {
+            margin-bottom: 10px;
+        }
+
+        address a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: var(--text-color);
+            color: var(--white);
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ElectricalShop",
+      "name": "VoltSource",
+      "image": "https://www.voltsource.com/images/logo.png",
+      "description": "VoltSource is a leading electrical wholesaler, providing top-quality electrical supplies to professionals and businesses.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Power Ave",
+        "addressLocality": "Circuit City",
+        "addressRegion": "EL",
+        "postalCode": "12345",
+        "addressCountry": "US"
+      },
+      "telephone": "(555) 123-4567",
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "priceRange": "$$"
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#home" title="VoltSource Home">
+                        <img src="/api/placeholder/150/50" alt="VoltSource Logo" width="150" height="50">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" title="Home">Home</a></li>
+                    <li><a href="#products" title="Our Products">Products</a></li>
+                    <li><a href="#about" title="About Us">About</a></li>
+                    <li><a href="#contact" title="Contact Us">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Welcome to VoltSource</h1>
+                <p>Your Premier Electrical Wholesaler</p>
+                <a href="#products" class="btn" title="View Our Products">Explore Our Products</a>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container">
+                <h2>Our Premium Electrical Products</h2>
+                <div class="products">
+                    <article class="product">
+                        <i class="fas fa-plug" aria-hidden="true"></i>
+                        <h3>Wiring & Cables</h3>
+                        <p>High-quality wiring solutions for all your electrical needs.</p>
+                    </article>
+                    <article class="product">
+                        <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                        <h3>Lighting Fixtures</h3>
+                        <p>Energy-efficient lighting options for residential and commercial use.</p>
+                    </article>
+                    <article class="product">
+                        <i class="fas fa-bolt" aria-hidden="true"></i>
+                        <h3>Circuit Breakers</h3>
+                        <p>Reliable protection for electrical systems of all sizes.</p>
+                    </article>
+                    <article class="product">
+                        <i class="fas fa-tools" aria-hidden="true"></i>
+                        <h3>Tools & Equipment</h3>
+                        <p>Professional-grade tools for electricians and DIY enthusiasts.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About VoltSource</h2>
+                <p>VoltSource is a leading electrical wholesaler with over 20 years of experience, providing top-quality electrical supplies to professionals and businesses. Our extensive range of products and unmatched industry expertise make us the go-to source for all your electrical supply needs.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact VoltSource</h2>
+                <address>
+                    <p>Phone: <a href="tel:+15551234567">(555) 123-4567</a></p>
+                    <p>Email: <a href="mailto:info@voltsource.com">info@voltsource.com</a></p>
+                    <p>Address: 123 Power Ave, Circuit City, EL 12345</p>
+                </address>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 VoltSource. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
